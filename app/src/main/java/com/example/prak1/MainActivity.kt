@@ -19,10 +19,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Prak1Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                Scaffold(modifier = Modifier.fillMaxSize()) { bodyPadding ->
                     Greeting(
                         name = "TI UMY",
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(bodyPadding)
                     )
                 }
             }
